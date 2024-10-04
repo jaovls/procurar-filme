@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: darkgrey;
+        }
+
+        form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            border-radius: 50px;
+        }
+
+        input{
+            height: 55px;
+
+        }
+
+        form button{
+            height: 59px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <form action="http://localhost:3000/filmes">
+            <input class="procurar" type="text" name="filme">
+            <button class="procurar" type="submit">Buscar</button>
+        </form>
+    </div>
+</body>
+</html>
